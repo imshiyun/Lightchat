@@ -1,0 +1,14 @@
+{
+  "name": "lightchat-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local multi-provider chat page with an optional DeepSeek web transcription bridge.",
+  "type": "commonjs",
+  "scripts": {
+    "bridge": "node bridge/deepseek_bridge.js",
+    "install-browsers": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.54.0"
+  }
+}
